@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom'
-import {FirebaseContext} from "../context/firebase"
+import FirebaseContext from "../context/firebase"
 import "../css/index.css"
 import { Link } from 'react-router-dom';
 import * as ROUTES from "../constants/routes"
